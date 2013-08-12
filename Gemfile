@@ -25,6 +25,9 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 gem 'resque', '~> 1.25.0.pre', :require => "resque/server"
+#gem 'rspec', :require => 'spec'
+
+gem 'aws-sdk', '~> 1.14.1'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

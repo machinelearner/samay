@@ -27,6 +27,10 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.0)
     atomic (1.1.12)
+    aws-sdk (1.14.1)
+      json (~> 1.4)
+      nokogiri (< 1.6.0)
+      uuidtools (~> 2.1)
     builder (3.1.4)
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
@@ -54,6 +58,7 @@ GEM
     minitest (4.7.5)
     mono_logger (1.1.0)
     multi_json (1.7.9)
+    nokogiri (1.5.10)
     polyglot (0.3.3)
     rack (1.5.2)
     rack-protection (1.5.0)
@@ -119,6 +124,7 @@ GEM
     uglifier (2.1.2)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    uuidtools (2.1.4)
     vegas (0.1.11)
       rack (>= 1.0.0)
 
@@ -126,6 +132,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-sdk (~> 1.14.1)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
