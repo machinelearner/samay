@@ -28,6 +28,7 @@ gem 'resque', '~> 1.25.0.pre', :require => "resque/server"
 #gem 'rspec', :require => 'spec'
 
 gem 'aws-sdk', '~> 1.14.1'
+gem 'resque-scheduler'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

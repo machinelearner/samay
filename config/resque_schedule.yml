@@ -1,0 +1,4 @@
+create_job:
+  every: "10s"
+  class: Foo
+
