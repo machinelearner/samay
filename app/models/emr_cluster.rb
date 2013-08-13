@@ -1,5 +1,3 @@
-require File.dirname(__FILE__) + '/base'
-
 class EMRCluster
   attr_reader :steps
 
